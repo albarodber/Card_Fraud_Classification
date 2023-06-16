@@ -13,7 +13,7 @@ The data has been obtained from the Kaggle platform (https://www.kaggle.com/comp
 
 There are two data sets: Transaction and Identity. The first one contains information about the transactions and the second one about the users. They have a common column with which they can be related. Many of the variables do not have a specific explanation, since many of them are anonymized to preserve the privacy of the users, so it is not possible to know what information they provide exactly. In the data dictionary (data_dictionary file) everything that is known about the various variables is expanded.
 
-The objective variable is isfraud and it refers to whether a transaction is fraudulent or not. It is coded with 1 if it is fraud and 0 if it is not.
+The target variable is isfraud and it refers to whether a transaction is fraudulent or not. It is coded with 1 if it is fraud and 0 if it is not.
 
 All the phases of a Machine Learning project have been carried out: data analysis and cleaning, transformations, variable selection and modeling.
 
@@ -26,13 +26,12 @@ The folders found in the project are the following:
 - Html: Notebooks saved in html format.
 - Models: Models saved in pickle format.
 - Notebooks: Notebooks with which we have worked, listed according to the order we have followed in the project.
-
-	01_EDA: Exploratory analysis (nulls, outliers, correlations, visualizations)
-	02_Feature_Engineering: transformation of values, creation of new variables, construction of a preprocessor, selection of variables.
-	03_Random_forest
-	04_LogisticRegression
-	05_XGBoost
-	06_LightGBM
-	07_Parameters_Optimization: Cross validation to find the best hyperparameters.
-	08_Explainability: Explainability of the model.
-	09_Dash: Dashboard.
+	- 01_EDA: Exploratory analysis (nulls, outliers, correlations, visualizations)
+	- 02_Feature_Engineering: transformation of values, creation of new variables, construction of a preprocessor, selection of variables.
+	- 03_Random_forest
+	- 04_LogisticRegression
+	- 05_XGBoost
+	- 06_LightGBM
+	- 07_Parameters_Optimization: Cross validation to find the best hyperparameters.
+	- 08_Explainability: Explainability of the model.
+	- 09_Dash: Dashboard.
