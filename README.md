@@ -1,13 +1,18 @@
-________________________________________________________________________________________________________________________
 
-CUNEF
-
-Máster en Ciencia de Datos
+CUNEF - Máster en ciencia de datos
 
 Alba Rodríguez Berenguel
-________________________________________________________________________________________________________________________
+#
 
-The title of the project is 'Detection of fraudulent transactions with bank cards using classification techniques'. The objective is to obtain a model that is capable of classifying bank transactions as fraudulent or non-fraudulent, as well as being able to know which are the variables that most help the classification.
+# CARD FRAUD CLASSIFICATION
+
+This repository contains the final work of the master's degree in data science. The title of the project is **'Detection of fraudulent transactions with bank cards using classification techniques'**.
+
+![Logo](https://blog.saginfotech.com/wp-content/uploads/2019/04/credit-card-frauds.jpg)
+
+## DESCRIPTION
+
+The objective is to obtain a model that is capable of classifying bank transactions as fraudulent or non-fraudulent, as well as being able to know which are the variables that most help the classification.
 
 The data has been obtained from the Kaggle platform (https://www.kaggle.com/competitions/ieee-fraud-detection/). These were published for a contest organized by the IEEE in collaboration with Vesta, one of the pioneering companies in providing fraud prevention solutions.
 
@@ -17,7 +22,7 @@ The target variable is isfraud and it refers to whether a transaction is fraudul
 
 All the phases of a Machine Learning project have been carried out: data analysis and cleaning, transformations, variable selection and modeling.
 
-________________________________________________________________________________________________________________________
+## CONTENT
 
 The folders found in the project are the following:
 
